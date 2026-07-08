@@ -1,0 +1,35 @@
+# OS files
+.DS_Store
+Thumbs.db
+db.sqlite3
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node (Frontend)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python (Backend)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+*.log
+
+# 🔑 Secrets & Databases (CRITICAL!)
+.env
+backend/.env
+*.db
+backend/safecatch.db
