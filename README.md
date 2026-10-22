@@ -8,16 +8,16 @@
 
 ## 📂 프로젝트 구조
 
-* **[backend](file:///C:/Users/5174k/OneDrive/바탕 화면/26_1/소프트웨어공학/소웨공 과제/safecatch/backend)**: FastAPI 기반 백엔드 API 서버
-  * **[app/main.py](file:///C:/Users/5174k/OneDrive/바탕 화면/26_1/소프트웨어공학/소웨공 과제/safecatch/backend/app/main.py)**: 진입점 및 API 라우팅 컨트롤러
-  * **[app/transit.py](file:///C:/Users/5174k/OneDrive/바탕 화면/26_1/소프트웨어공학/소웨공 과제/safecatch/backend/app/transit.py)**: TMap API 연동 및 대중교통 경로 최적화 모듈
-  * **[app/auth.py](file:///C:/Users/5174k/OneDrive/바탕 화면/26_1/소프트웨어공학/소웨공 과제/safecatch/backend/app/auth.py)**: JWT 기반 로그인 및 회원가입 인증 핸들러
-  * **[app/models.py](file:///C:/Users/5174k/OneDrive/바탕 화면/26_1/소프트웨어공학/소웨공 과제/safecatch/backend/app/models.py)**: SQLAlchemy ORM 데이터베이스 스키마 정의
-* **[frontend](file:///C:/Users/5174k/OneDrive/바탕 화면/26_1/소프트웨어공학/소웨공 과제/safecatch/frontend)**: React + Vite 기반의 고성능 싱글 페이지 애플리케이션(SPA)
-  * **[src/pages/Dashboard.jsx](file:///C:/Users/5174k/OneDrive/바탕 화면/26_1/소프트웨어공학/소웨공 과제/safecatch/frontend/src/pages/Dashboard.jsx)**: 실시간 대중교통 현황 및 요약 위젯 대시보드
-  * **[src/pages/TripAlarms.jsx](file:///C:/Users/5174k/OneDrive/바탕 화면/26_1/소프트웨어공학/소웨공 과제/safecatch/frontend/src/pages/TripAlarms.jsx)**: 맞춤형 출근/통학 경로 스케줄링 및 알림 트리거 설정
-  * **[src/pages/Calibrator.jsx](file:///C:/Users/5174k/OneDrive/바탕 화면/26_1/소프트웨어공학/소웨공 과제/safecatch/frontend/src/pages/Calibrator.jsx)**: 사용자 도보 속도 측정 및 알림 오프셋 보정기
-  * **[src/pages/Settings.jsx](file:///C:/Users/5174k/OneDrive/바탕 화면/26_1/소프트웨어공학/소웨공 과제/safecatch/frontend/src/pages/Settings.jsx)**: 자주 가는 정류장, 홈/회사 위치 및 API 연동 설정
+* **[backend](backend)**: FastAPI 기반 백엔드 API 서버
+  * **[app/main.py](backend/app/main.py)**: 진입점 및 API 라우팅 컨트롤러
+  * **[app/transit.py](backend/app/transit.py)**: TMap API 연동 및 대중교통 경로 최적화 모듈
+  * **[app/auth.py](backend/app/auth.py)**: JWT 기반 로그인 및 회원가입 인증 핸들러
+  * **[app/models.py](backend/app/models.py)**: SQLAlchemy ORM 데이터베이스 스키마 정의
+* **[frontend](frontend)**: React + Vite 기반의 고성능 싱글 페이지 애플리케이션(SPA)
+  * **[src/pages/Dashboard.jsx](frontend/src/pages/Dashboard.jsx)**: 실시간 대중교통 현황 및 요약 위젯 대시보드
+  * **[src/pages/TripAlarms.jsx](frontend/src/pages/TripAlarms.jsx)**: 맞춤형 출근/통학 경로 스케줄링 및 알림 트리거 설정
+  * **[src/pages/Calibrator.jsx](frontend/src/pages/Calibrator.jsx)**: 사용자 도보 속도 측정 및 알림 오프셋 보정기
+  * **[src/pages/Settings.jsx](frontend/src/pages/Settings.jsx)**: 자주 가는 정류장, 홈/회사 위치 및 API 연동 설정
 
 ---
 
@@ -66,7 +66,7 @@
 
 ### 3. 일괄 실행
 프로젝트 루트에서 다음 스크립트를 실행합니다.
-* **[start.bat](file:///C:/Users/5174k/OneDrive/바탕 화면/26_1/소프트웨어공학/소웨공 과제/safecatch/start.bat)** (Windows 환경 전용 더블 클릭 지원)
+* **[start.bat](start.bat)** (Windows 환경 전용 더블 클릭 지원)
 
 실행 후 각각 아래 로컬 호스트 주소로 자동 포워딩됩니다:
 * **Frontend**: `http://localhost:5173`
